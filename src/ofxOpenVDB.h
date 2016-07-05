@@ -1,10 +1,28 @@
 #pragma once
-#include <openvdb/openvdb.h>
-#include <openvdb/tools/Composite.h>
-#include <openvdb/tools/GridOperators.h>
-#include <openvdb/tools/LevelSetSphere.h>
-#include <openvdb/tools/ValueTransformer.h>
-#include <openvdb/tools/VolumeToMesh.h>
+#include "openvdb/openvdb.h"
+#include "openvdb/util/Util.h"
+#include "openvdb/tools/Composite.h"
+#include "openvdb/tools/GridOperators.h"
+#include "openvdb/tools/LevelSetSphere.h"
+#include "openvdb/tools/ValueTransformer.h"
+#include "openvdb/tools/VolumeToMesh.h"
+
+
+#include "openvdb/tools/ValueTransformer.h"
+
+#include "openvdb/tools/LevelSetUtil.h"
+#include "openvdb/tools/MeshToVolume.h"
+#include "openvdb/tools/VolumeToMesh.h"
+#include "openvdb/Exceptions.h"
+#include "openvdb/tree/LeafManager.h"
+#include "openvdb/tools/ParticlesToLevelSet.h"
+#include "openvdb/tools/LevelSetFilter.h"
+
+#include "openvdb/tools/PointScatter.h"
+#include "openvdb/math/Operators.h"
+
+
+
 #include "ofxOpenVDBRayIntersector64.h"
 
 using namespace openvdb;
